@@ -28,12 +28,6 @@
   }
   .logo {
     display: block;
-    height: 90%;
-    @include respond-to(lg) {
-      img {
-        height: 100%;
-      }
-    }
   }
   .menuItems {
     ul {
@@ -84,14 +78,12 @@
     </div>
     <div class="menuItems">
       <ul>
-        <a v-scroll-to="{el:'#section1',offset:0,duration:1000}">صفحه اصلی</a>
-        <a v-scroll-to="{el:'#section2',offset:0,duration:1000}">تعمیر تلویزین در محل</a>
-        <a v-scroll-to="{el:'#section3',offset:0,duration:1000}">درباره ما</a>
-        <a v-scroll-to="{el:'#form',offset:-350,duration:1500}">تماس با ما</a>
+        <a v-scroll-to="{el:'#section1',offset:0,duration:1000}">المنزل</a>
+        <a v-scroll-to="{el:'#form',offset:-350,duration:1500}">اتصل بنا</a>
       </ul>
     </div>
     <div class="left-panel">
-      <v-btn v-scroll-to="{el:'#form',offset:-350,duration:1500}" class="buy-btn">تعمیر تلویزیون</v-btn>
+      <v-btn v-scroll-to="{el:'#form',offset:-350,duration:1500}" class="buy-btn">بداية</v-btn>
     </div>
   </div>
 </template>

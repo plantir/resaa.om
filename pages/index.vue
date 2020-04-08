@@ -8,13 +8,13 @@ section {
 <template>
   <section>
     <part1 />
-    <part2 />
+    <!-- <part2 />
     <part3 />
     <part4 />
-    <part5 />
+    <part5 />-->
     <part6 />
-    <usersComments />
-    <part8 />
+    <!-- <usersComments /> -->
+    <!-- <part8 /> -->
     <contactus />
   </section>
 </template>

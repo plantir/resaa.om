@@ -27,6 +27,7 @@
   }
   .content {
     padding: 2100px 20px;
+    font-weight: 600;
     @include respond-to(lg) {
       padding: 210px 60px;
     }
@@ -50,7 +51,7 @@
       .title {
         padding: 0.5rem;
         margin: 16px 0;
-        color: #fff;
+        color: #000;
         width: 100%;
         text-align: center;
         font-size: 48px !important;
@@ -61,7 +62,7 @@
       }
       p {
         text-align: center;
-        color: #fff;
+        color: #000;
         font-size: 16px;
         margin: 40px auto;
       }
@@ -76,7 +77,7 @@
       }
       .counter-01 {
         min-width: 250px;
-        color: #fff;
+        color: #000;
         + .counter-01 {
           border-right: 1px dashed #ffffff42;
           @include respond-to(sm) {
@@ -104,75 +105,43 @@
         }
       }
     }
-    .download {
-      display: inline-block;
-      font-size: 16px;
-      color: #fff;
-      padding: 0 30px;
-      background-color: #1abc9c;
-      transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-      font-weight: 600;
-      line-height: 50px;
-      height: 50px;
-      padding: 0 25px;
-      text-align: center;
-      white-space: nowrap;
-      vertical-align: middle;
-      touch-action: manipulation;
-      cursor: pointer;
-      user-select: none;
-      border: none;
-      border-radius: 50px;
-      color: #fff !important;
-      margin-top: 40px;
-      @include respond-to(lg) {
-        margin-top: 60px;
-      }
-      @include respond-to(sm) {
-        margin-top: 10px;
-      }
-      &:hover {
-        background-color: #00aa89;
-      }
-    }
   }
 }
 </style>
 <template>
   <div class="boxes">
-    <div class="background">
+    <!-- <div class="background">
       <div class="under_menu_background"></div>
-    </div>
+    </div>-->
 
     <div class="content">
       <div class="text">
-        <h1 class="title">آمار خدمت رسانی تکنسین برتر</h1>
-        <p class="des">مفتخریم که تا کنون توانسته ایم در خدمت شما هموطنان عزیز باشیم</p>
+        <h1 class="title">بیانات الواجب الرساء:</h1>
+        <p class="des">بالأستفاده من رسا تقدرون ان تنصلون مع اطبأکم و تستشیرون معهم</p>
       </div>
       <div class="information">
         <div class="counter-01">
           <div class="box-title">
             <div class="custom-module" data-effect="Number">
-              <span class="animation number">۳۰۰+</span>
+              <span class="animation number">۷۰۰۰۰+</span>
             </div>
-            <p>تعمیر در منزل</p>
+            <p>مشترک</p>
           </div>
         </div>
         <div class="counter-01">
           <div class="box-title">
             <div class="custom-module" data-effect="Number">
-              <span class="animation number">۲۷۸+</span>
+              <span class="animation number">۶۰۰۰۰+</span>
             </div>
-            <p>مشتری راضی</p>
+            <p>طبیب و مستشار</p>
           </div>
         </div>
         <div class="counter-01">
           <div class="box-title">
             <div class="custom-module" data-effect="Number">
-              <span class="animation number">۱۵۰+</span>
+              <span class="animation number">۵۰۰۰۰+</span>
             </div>
-            <p>نظر مثبت</p>
+            <p>اتصال</p>
           </div>
         </div>
       </div>

@@ -94,30 +94,15 @@ header {
     </header>
     <v-navigation-drawer class="open-menu" v-model="drawer" width="100%" app fixed right temporary>
       <div class="menu">
-        <div class="text">منو</div>
         <div class="close" @click="drawer=!drawer"></div>
       </div>
       <ul class="menu-list" nav dense>
         <li>
-          <a v-scroll-to="{el:'#section1',offset:0,duration:1000}" @click="drawer = false">صفحه‌اصلی</a>
+          <a v-scroll-to="{el:'#section1',offset:0,duration:1000}" @click="drawer = false">المنزل</a>
         </li>
 
         <li>
-          <a
-            v-scroll-to="{el:'#section2',offset:-150,duration:1000}"
-            @click="drawer = false"
-          >تعمیر تلویزیون</a>
-        </li>
-
-        <li>
-          <a
-            v-scroll-to="{el:'#section3',offset:-50,duration:1000}"
-            @click="drawer = false"
-          >درباره ما</a>
-        </li>
-
-        <li>
-          <a v-scroll-to="{el:'#form',offset:-200,duration:1500}" @click="drawer = false">تماس با ما</a>
+          <a v-scroll-to="{el:'#form',offset:-200,duration:1500}" @click="drawer = false">اتصل بنا</a>
         </li>
       </ul>
     </v-navigation-drawer>

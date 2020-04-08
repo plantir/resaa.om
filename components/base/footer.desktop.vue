@@ -69,8 +69,8 @@ footer {
       <div class="logo">
         <img src="~assets/img/logo.png" alt />
       </div>
-      <div class="copyright">تمام حقوق مادی و معنوی مطعلق به سایت تکنسین برتر می‌باشد</div>
-      <div class="links">
+      <div class="copyright">کل الحقوق المادیة و المعنویة متعلقه برسا</div>
+      <!-- <div class="links">
         <a href="#">
           <svg xmlns="http://www.w3.org/2000/svg" id="fab-facebook-f" viewBox="0 0 320 512">
             <path
@@ -92,7 +92,7 @@ footer {
             />
           </svg>
         </a>
-      </div>
+      </div>-->
     </div>
   </footer>
 </template>

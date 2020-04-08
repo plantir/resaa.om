@@ -35,7 +35,7 @@
     justify-content: space-between;
     align-items: center;
     @include respond-to(lg) {
-      padding: 140px 60px 100px;
+      padding: 140px 60px 400px;
     }
     @include respond-to(sm) {
       flex-direction: column;
@@ -92,8 +92,14 @@
       }
     }
     .img {
+      position: absolute;
+      left: -140px;
+      bottom: 30%;
+
       @include respond-to(sm) {
+        bottom: -25px;
         width: 100%;
+        left: 0;
       }
       img {
         width: 100%;
@@ -110,9 +116,10 @@
 
     <div class="content">
       <div class="text">
-        <h1 class="title">سرویس و تعمیر تلویزیون در محل</h1>
+        <h1 class="title">مشرو استمارة التحت للأتصال بنا استعلامات للأتصال</h1>
         <p class="des">
-          <strong>سرویس و تعمیر تلویزیون در محل</strong>، شامل نصب، سرویس و تعمیر تضمینی تلویزیون می‌شود. تلویزیون شما از هر برند و مدلی که باشد، آن را در هر نقطه از تهران و هر زمانی که شما بخواهید در محلتان تعمیر می‌کنیم.
+          رسا اقامة المریض بالمستشفی و الأتصال بین المریض و الطبیب
+          نحن نجتهد للتسهیل الأمور بین المرضا و الأطباء المتخصصین
         </p>
         <div class="text-center">
           <v-btn
@@ -121,7 +128,7 @@
             rounded
             x-large
             dark
-          >شروع سفارش سرویس و تعمیر تلویزیون</v-btn>
+          >بداية</v-btn>
         </div>
         <!-- <div class="form">
           <input
@@ -134,7 +141,7 @@
         </div>-->
       </div>
       <div class="img">
-        <img src="~assets/img/left-side-pic-01.png" alt />
+        <img src="~assets/img/img_header.png" alt />
       </div>
     </div>
   </div>

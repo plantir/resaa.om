@@ -170,7 +170,7 @@
         <span>Contact info</span>
       </li>
     </ul>-->
-    <v-speed-dial
+    <!-- <v-speed-dial
       v-model="fab"
       :bottom="true"
       direction="top"
@@ -192,10 +192,10 @@
       <v-btn fab dark small color="#0095ff">
         <v-icon>socicon-telegram</v-icon>
       </v-btn>
-    </v-speed-dial>
+    </v-speed-dial>-->
     <ul class="fixed-widget-list">
       <li @click="backtotop()" class="backtop" :class="{active:back}">
-        <span>Back to top</span>
+        <span>عد إلى الأعلى</span>
       </li>
     </ul>
   </div>

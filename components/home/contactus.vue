@@ -5,10 +5,6 @@
   height: auto;
   box-sizing: border-box;
   position: relative;
-  -webkit-transition: all ease 0.3s;
-  -moz-transition: all ease 0.3s;
-  -ms-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
   .background {
     position: absolute;
@@ -184,28 +180,28 @@
     </div>
     <div class="content">
       <div class="text">
-        <h1 class="title">فرم زیر را پر کرده و منتظر تماس ما باشید</h1>
+        <h1 class="title">املأ النموذج أدناه وانتظر اتصالنا</h1>
         <div class="form" id="form">
           <div class="part-2">
             <div>
-              <label for="name">نام و نام خانوادگی</label>
+              <label for="name">الاسم واللقب</label>
               <input type="text" id="name" class="name" />
             </div>
             <div>
-              <label for="name">موبایل</label>
+              <label for="name">جوال</label>
               <input type="mobile" id="mobile" class="mobile" />
             </div>
           </div>
           <div class="part">
-            <label for="matn">موضوع</label>
+            <label for="matn">الموضوع</label>
             <input type="text" id="mozoe" />
           </div>
           <div class="part">
-            <label for="matn">توضیحات</label>
+            <label for="matn">الوصف</label>
             <textarea name id="matn" cols="10" rows="10" no-resize></textarea>
           </div>
           <div class="part">
-            <input type="submit" class="submit-form" value="ثبت خرابی" />
+            <input type="submit" class="submit-form" value="إرسال" />
           </div>
         </div>
       </div>
@@ -215,24 +211,25 @@
             <v-icon color="#fff">phone</v-icon>
           </div>
           <div class="cont">
-            <h4 class="title">برای تماس آماده اید؟</h4>
-            <h4 class="subtitle">اطلاعات تماس</h4>
+            <h4 class="title">جاهز للاتصال؟</h4>
+            <h4 class="subtitle">معلومات الاتصال</h4>
           </div>
         </div>
-        <p style="opacity: 0.7;">ما هر لحظه آماده پاسخگویی سوالات شما عزیزان هستیم</p>
         <div class="saas2-footer-info">
           <p>
-            تلفن همراه:
-            <span class="color-accent phone">+98 912 111 11 11</span>
+            هاتف محمول:
+            <span class="color-accent phone">+968 2499 2018</span>
           </p>
-          <p>ایمیل: test@gmail.com</p>
-          <p>آدرس: لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+          <p>البريد الإلكتروني: info@resaa.om</p>
         </div>
         <div class="saas2-footer-info2">
-          <h6 class="title">ساعات پاسخگویی</h6>
-          <p>شنبه تا چهارشنبه: 8:00am-5:30pm</p>
-          <p>پنجشنبه: 10:00am-2:00pm</p>
-          <p>جمعه: close</p>
+          <h6 class="title">ساعات الاستجابة</h6>
+          <p>
+            من السبت إلى الأربعاء
+            : 8:00am-5:30pm
+          </p>
+          <p>الخميس: 10:00am-2:00pm</p>
+          <p>الجمعة: close</p>
         </div>
       </div>
     </div>
