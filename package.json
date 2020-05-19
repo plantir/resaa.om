@@ -9,7 +9,7 @@
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
-    "release": "git push origin develop && git push origin master",
+    "release": "git push origin master && git push origin next",
     "test": "jest"
   },
   "dependencies": {
