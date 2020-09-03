@@ -116,8 +116,8 @@
 
     <div class="content">
       <div class="text">
-        <h1 class="title">بیانات الواجب الرساء:</h1>
-        <p class="des">بالأستفاده من رسا تقدرون ان تنصلون مع اطبأکم و تستشیرون معهم</p>
+        <h1 class="title">بیانات الواجب الجمسی:</h1>
+        <p class="des">باستخدام الخدمات ، يمكنك التواصل والتشاور مع أفضل علماء النفس لديك</p>
       </div>
       <div class="information">
         <div class="counter-01">
@@ -131,15 +131,15 @@
         <div class="counter-01">
           <div class="box-title">
             <div class="custom-module" data-effect="Number">
-              <span class="animation number">۶۰۰۰۰+</span>
+              <span class="animation number">۶۰۰+</span>
             </div>
-            <p>طبیب و مستشار</p>
+            <p>مستشار</p>
           </div>
         </div>
         <div class="counter-01">
           <div class="box-title">
             <div class="custom-module" data-effect="Number">
-              <span class="animation number">۵۰۰۰۰+</span>
+              <span class="animation number">۵۰۰۰۰۰+</span>
             </div>
             <p>اتصال</p>
           </div>

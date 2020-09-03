@@ -80,6 +80,7 @@
       <ul>
         <a v-scroll-to="{el:'#section1',offset:0,duration:1000}">المنزل</a>
         <a v-scroll-to="{el:'#form',offset:-350,duration:1500}">اتصل بنا</a>
+        <a href="/privacy">خصوصية</a>
       </ul>
     </div>
     <div class="left-panel">

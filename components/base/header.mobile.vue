@@ -104,6 +104,10 @@ header {
         <li>
           <a v-scroll-to="{el:'#form',offset:-200,duration:1500}" @click="drawer = false">اتصل بنا</a>
         </li>
+
+        <li>
+          <a href="/privacy">خصوصية</a>
+        </li>
       </ul>
     </v-navigation-drawer>
   </div>
