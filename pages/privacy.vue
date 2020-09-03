@@ -41,7 +41,7 @@ section {
     <h4 style="padding-left: 30px;">Security Of Data</h4>
     <p style="padding-left: 30px;">
       The security of your information is important to us. Although we cannot guarantee
-      absolute and 100% security, but we try our best to secure and protect your information with industry-level
+      absyarn deolute and 100% security, but we try our best to secure and protect your information with industry-level
       technologies and tools.&nbsp;
     </p>
     <h4 style="padding-left: 30px;">Contact Us</h4>

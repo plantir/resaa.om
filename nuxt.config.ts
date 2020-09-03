@@ -67,16 +67,16 @@ export default {
    */
   css: [
     'vrwebdesign-nuxt/assets/style/main.scss',
-    '~assets/style/main.scss',
-    'animate.css/animate.css',
-    'video.js/dist/video-js.css'
+    '~assets/style/main.scss'
+    // 'animate.css/animate.css',
+    // 'video.js/dist/video-js.css'
   ],
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [
-    '@/plugins/iconLoader.js',
-    { src: '@/plugins/globalComponent.js', mode: 'client' }
+    '@/plugins/iconLoader.js'
+    // { src: '@/plugins/globalComponent.js', mode: 'client' }
   ],
   /*
    ** Nuxt.js dev-modules
@@ -100,18 +100,18 @@ export default {
     'vrwebdesign-nuxt/modules/nuxt-axios',
     'vrwebdesign-nuxt/modules/nuxt-validate',
     'vrwebdesign-nuxt/modules/nuxt-loader',
-    'vrwebdesign-nuxt/modules/nuxt-date-picker',
-    'vrwebdesign-nuxt/modules/nuxt-file-upload',
+    // 'vrwebdesign-nuxt/modules/nuxt-date-picker',
+    // 'vrwebdesign-nuxt/modules/nuxt-file-upload',
     'vrwebdesign-nuxt/modules/nuxt-scroll-to',
     'vrwebdesign-nuxt/modules/nuxt-currency',
-    'vrwebdesign-nuxt/modules/nuxt-enums',
-    'vrwebdesign-nuxt/modules/nuxt-badge',
+    // 'vrwebdesign-nuxt/modules/nuxt-enums',
+    // 'vrwebdesign-nuxt/modules/nuxt-badge',
     'vrwebdesign-nuxt/modules/nuxt-navbar',
-    'vrwebdesign-nuxt/modules/nuxt-chart',
-    'vrwebdesign-nuxt/modules/nuxt-toast',
-    'vrwebdesign-nuxt/modules/nuxt-dialog',
+    // 'vrwebdesign-nuxt/modules/nuxt-chart',
+    // 'vrwebdesign-nuxt/modules/nuxt-toast',
+    // 'vrwebdesign-nuxt/modules/nuxt-dialog',
     'vrwebdesign-nuxt/modules/nuxt-global',
-    'vrwebdesign-nuxt/modules/nuxt-data-grid',
+    // 'vrwebdesign-nuxt/modules/nuxt-data-grid',
     'vrwebdesign-nuxt/modules/nuxt-form-generator'
   ],
   watch: ['services', 'enums'],
